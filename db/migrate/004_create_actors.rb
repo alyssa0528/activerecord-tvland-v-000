@@ -1,2 +1,8 @@
 class Actors < ActiveRecord::Migration[4.2]
-end 
+  def change
+    create_table :actors do |t|
+      t.string :first_name
+      t.string :last_name
+    end
+  end
+end
