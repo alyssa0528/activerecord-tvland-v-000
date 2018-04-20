@@ -1,2 +1,8 @@
 class Characters < ActiveRecord::Migration[4.2]
-end 
+  def change
+    create_table :characters do |t|
+      t.string :name
+      t.integer :show_id 
+    end
+  end
+end
