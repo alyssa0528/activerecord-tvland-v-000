@@ -1,2 +1,4 @@
 class AddNamesAndGenresToShow < ActiveRecord::Migration[4.2]
-end 
+  def change
+    add_column :shows, :
+end
