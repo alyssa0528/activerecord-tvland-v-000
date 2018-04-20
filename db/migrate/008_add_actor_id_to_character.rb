@@ -1,2 +1,5 @@
 class AddActorIdToCharacter < ActiveRecord::Migration[4.2]
-end 
+  def change
+    add_column :characters, :actor_id, :integer
+  end
+end
