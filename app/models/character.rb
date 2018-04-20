@@ -7,5 +7,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_network
-  end 
+    self.build
+  end
 end
