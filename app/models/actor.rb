@@ -12,6 +12,5 @@ class Actor < ActiveRecord::Base
     self.characters.collect do |character|
       character.name
     end 
-    binding.pry
   end
 end
